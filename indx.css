@@ -1,0 +1,310 @@
+body{
+    margin:auto;
+}
+#header{
+    background-color: rgb(199, 236, 224);
+    height:800px;
+    width:100%;
+}
+#pre-nav{
+    height:725px;
+    width:100%;
+    background-image: linear-gradient(#2C3E50, #000000 );
+    
+}
+.nl-txt{
+    color:#f2e9e9;
+    text-decoration:none;
+    margin-left:20px;
+
+}
+.nl-txt:hover{ 
+    color:#6aa0eb;
+    transition:0.5s;
+}
+.navbar{ 
+    position: relative;
+}
+#logo1{
+    height:50px;
+    width:50px;
+}
+#intro-text{
+    width:50%;
+    height:400px;
+    float:left;
+    margin-top: 10%;
+}
+#intro-img{ 
+    width:49%;
+    height:400px;
+    float:right;
+    margin-top:10%;
+}
+.i-text-1{
+    color:#f2e9e9;
+    font-family: 'Source Code Pro', monospace;
+    margin-top:25px;
+    margin-left: 5%;
+}
+#txt-1{
+    margin-top:40px;
+}
+#name{
+    color:#dac213;;
+}
+#resume{
+    text-decoration: none;
+    color:#e66f23;
+    margin-left:5%;
+    padding:12px;
+    background-color:#fdffffcf;
+    border-radius:10px 30px;
+}
+#resume:hover{
+    color:#fdfbfb;
+    background-color:#e48449;
+    transition:1s;
+}
+#dp{
+    height:400px;
+    width:80%;
+    float:right;
+    margin-right: 10%;
+    background-size: cover;
+    border-radius:30px 90px;
+    box-shadow: 13px 11px 15px #e2e9ea52;
+}
+.navbar{
+    height:75px;
+}
+.ulnav{
+    list-style: none;
+}
+.linav{
+    text-decoration: none;
+    display: inline-block;
+    margin-left:15px;
+    margin-top: 2%;
+}
+.linav>a{
+    color:#e2e6e9;
+}
+#about{
+    height:700px;
+    width:100%;
+    background-image: linear-gradient(#091119, #37878b );
+}
+#about-head{
+    width:80%;
+    height:100px;
+    
+}
+.headings{
+    color:#e2e6e9;
+    font-family: 'Bebas Neue';
+    text-align:center;
+    margin-top:5%;
+}
+#about-text{
+    width:80%;
+    height:400px;
+    margin-top:5%;
+    color:#f2e9e9;
+    font-size: 28px;
+    font-family: 'Source Code Pro', monospace;
+    padding:4px;
+}
+#skills{
+    height:1000px;
+    width:100%;
+    border-top: 3px solid #091119;
+    background-image: linear-gradient(#091119 ,#86a7ca);
+}
+#skill-head{
+    width:80%;
+    height:150px;
+}
+#skill-body{
+    height:800px;
+    width:80%;
+}
+#sb-1{
+    height:795px;
+    width:35%;
+    float:left;
+}
+#sb-2{
+    height:795px;
+    width:64%;
+    float:right;
+}
+#block-img{ 
+    height:90px;
+    width:60%;
+    display:block;
+    margin-top:8px;
+    border-radius:5px 20px;
+}
+#block-text{
+    height:90px;
+    width:80%;
+    display:block;
+    margin-top:8px;
+}
+.img-size{
+    width:50%;
+    margin-left:10%;
+    margin-top: 2%;
+}
+
+#bi-2{
+    width:35%;
+    margin-left:20%;
+    height:75px;
+    margin-top:5%;
+}
+#bi-3{
+    width:55%;
+    height:70px;
+    margin-top:8%;
+}
+#bi-4{
+    width:60%;
+    height:75px;
+    margin-top: 3%;
+}
+#pg-b{
+    margin-top:5%;
+}
+#br-clr-1{
+    background-color:#e44d27;
+}
+#br-clr-2{
+    background-color:#1672b6;
+}
+#br-clr-3{
+    background-color:#e5a228;
+}
+#br-clr-4{
+    background-color:#58aa50;
+}
+#br-clr-5{
+    background-color:#4f739e;
+}
+#br-clr-6{
+    background-color:#ffd242;
+}
+#br-clr-7{
+    background-color:#6b9dae;
+}
+#br-clr-8{
+    background-color:#303b47;
+}
+#projects{
+    height:700px;
+    width:100%;
+    background-image: linear-gradient(#03443e ,#ace9cf)
+}
+#projects-head{
+    width:80%;
+    height:150px;
+}
+#projects-body{
+    height:500px;
+    width:80%;
+}
+#pro-1{
+    height:500px;
+    width:50%;
+    float:left;
+}
+#pro-1-txt{
+    height:150px;
+    width:100%;
+}
+#pro-2{
+    height:500px;
+    width:49%;
+    float:right;
+}
+#pro-2-txt{
+    height:150px;
+    width:100%;
+}
+#pro-1-img{
+    height:345px;
+    width:100%;
+    margin-top: 5%;
+}
+.pro-text{
+    color:#f2e9e9;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    padding:4px;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+#contact{
+    height:800px;
+    width:100%;
+    background-image: linear-gradient(#0c2825 ,#92c7cd)
+}
+#cont-head{
+    width:80%;
+    height:150px;
+}
+#cont-body{
+    height:550px;
+    width:80%;
+}
+#cont-b1{
+    height:545px;
+    width:50%;
+    float:left;
+}
+#cont-b2{
+    height:545px;
+    width:49%;
+    float:right;
+}
+#cont-b1-txt{
+    height:100px;
+    width:100%;
+}
+#cont-b1-map{
+    height:440px;
+    width:100%;
+}
+#maps{
+    width:100%;
+    height:435px
+}
+#social{
+    height:272px;
+    width:100%;
+
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 20px;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.fa:hover{
+    opacity: 0.7;
+
+}
+.fa-linkedin{
+    background:#0e76a8;
+    color:white;
+    
+}
+.fa-github{
+    background:#171515;
+    color:white;
+}
